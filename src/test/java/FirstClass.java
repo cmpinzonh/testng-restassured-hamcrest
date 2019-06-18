@@ -45,8 +45,7 @@ public class FirstClass {
         then().
                 statusCode(200).
                 body("$", hasKey("origin")).
-                body("$", hasKey("json")).
-                body(equalTo("{}"));
+                body("$", hasKey("json"));
     }
 
     @Test
