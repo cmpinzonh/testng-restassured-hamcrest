@@ -12,8 +12,7 @@
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/protractor/headless.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/test/google.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GithubApiPut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GithubApiPut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +31,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GithubAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -50,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiPut.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -283,24 +294,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GithubApiPut - 2019.06.20 at 09h 04m 01s.xml">
-      <configuration name="GithubApiPut" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubApiPut - 2019.06.20 at 09h 04m 20s.xml">
-      <configuration name="GithubApiPut" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubAuth - 2019.06.20 at 09h 09m 47s.xml">
-      <configuration name="GithubAuth" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubApiRepositories - 2019.06.20 at 09h 11m 25s.xml">
-      <configuration name="GithubApiRepositories" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubApiPut - 2019.06.20 at 09h 11m 42s.xml">
-      <configuration name="GithubApiPut" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubApiPut - 2019.06.20 at 09h 11m 51s.xml">
-      <configuration name="GithubApiPut" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GithubApiPut_followUserTest - 2019.06.20 at 09h 12m 00s.xml">
       <configuration name="GithubApiPut.followUserTest" configurationId="TestNG" />
     </history-entry>
@@ -313,6 +306,24 @@
     <history-entry file="GithubApiPut_checkFollowingList - 2019.06.20 at 09h 13m 11s.xml">
       <configuration name="GithubApiPut.checkFollowingList" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GithubApiPut - 2019.06.20 at 09h 13m 28s.xml">
+      <configuration name="GithubApiPut" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubApiPut - 2019.06.20 at 09h 13m 49s.xml">
+      <configuration name="GithubApiPut" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubApiRepositories - 2019.06.20 at 09h 14m 24s.xml">
+      <configuration name="GithubApiRepositories" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubApiRepositories - 2019.06.20 at 09h 14m 39s.xml">
+      <configuration name="GithubApiRepositories" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubAuth - 2019.06.20 at 09h 14m 46s.xml">
+      <configuration name="GithubAuth" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubAuth - 2019.06.20 at 09h 15m 01s.xml">
+      <configuration name="GithubAuth" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -323,7 +334,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
@@ -331,7 +342,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,17 +391,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiPut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GithubAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -404,13 +411,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiPut.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GithubAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
