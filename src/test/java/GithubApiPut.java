@@ -21,9 +21,9 @@ import static org.hamcrest.Matchers.*;
         public void checkFollowingList () {
             given().
                     auth().oauth2(System.getenv("ACCESS_TOKEN")).
-                    when().
+            when().
                     get("https://api.github.com/user/following").
-                    then().
+            then().
                     statusCode(200).
                     body("login", hasItem(equalTo("srestrepoo")));
         }
