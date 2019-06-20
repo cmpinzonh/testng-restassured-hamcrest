@@ -1,14 +1,21 @@
+import com.sun.xml.xsom.impl.scd.Iterators;
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.internal.RestAssuredResponseImpl;
+import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 public class GithubApiRepositories {
+
     @Test
     public void checkUserInfo () {
+
         given().
-                auth().preemptive().oauth2("960431b16fa8f1dd49ec5aaa44c62fa924f84380").
+                auth().oauth2(System.getenv("ACCESS_TOKEN")).
         when().
                 get("https://api.github.com/users/aperdomob").
         then().
@@ -20,6 +27,14 @@ public class GithubApiRepositories {
 
     @Test
     public void checkUserRepo () {
-        get("https://api.github.com/users/aperdomob/repos").then().body("$.findAll { it.id == 61072663 }.name", equalTo("agile-testing-school")); // failling
+        String expectedRepo = "workshop-api-testing-js";
+        given().
+                auth().oauth2(System.getenv("ACCESS_TOKEN")).
+        when().
+                get("https://api.github.com/users/cmpinzonh/repos").
+        then().
+                statusCode(200).
+                body("name", hasItem(equalTo(expectedRepo)));
     }
+
 }

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a9bf56-f5a2-4d05-b462-fa87c60b3588" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GithubApiPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/GithubApiPut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/testproject.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/features/step_definitions/my_step_definitions.js" beforeDir="false" />
@@ -12,11 +15,10 @@
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/protractor/headless.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/test/google.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mas-cucumber/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FirstClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GithubApiRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GithubApiRepositories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GithubApiRepositories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GithubApiRepositories.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,23 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GithubAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiRepositories.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="157" selection-start-line="22" selection-start-column="157" selection-end-line="22" selection-end-column="157" />
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +59,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiRepositories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="714">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiPut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,9 +98,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/FirstClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/GithubAuth.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/GithubApiPutTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GithubApiRepositories.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GithubApiPut.java" />
       </list>
     </option>
   </component>
@@ -168,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GithubApiRepositories.checkUserRepo">
+  <component name="RunManager" selected="TestNG.GithubApiRepositories">
     <configuration name="FirstClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testproject" />
       <option name="PACKAGE_NAME" value="" />
@@ -180,11 +187,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubApiRepositories.checkUserInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GithubApiPut" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testproject" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GithubApiPut" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="ACCESS_TOKEN" value="3211a0f0b1385dd735775655ec595c08366076c9" />
+      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubApiPut.followUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GithubApiRepositories" />
-      <option name="METHOD_NAME" value="checkUserInfo" />
+      <option name="MAIN_CLASS_NAME" value="GithubApiPut" />
+      <option name="METHOD_NAME" value="followUserTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -192,12 +221,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubApiRepositories.checkUserRepo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GithubApiRepositories" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testproject" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GithubApiRepositories" />
-      <option name="METHOD_NAME" value="checkUserRepo" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="ACCESS_TOKEN" value="3211a0f0b1385dd735775655ec595c08366076c9" />
+      </envs>
       <properties />
       <listeners />
       <method v="2">
@@ -206,34 +245,40 @@
     </configuration>
     <configuration name="GithubAuth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testproject" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GithubAuth" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="ACCESS_TOKEN" value="3211a0f0b1385dd735775655ec595c08366076c9" />
+      </envs>
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubAuth.authUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testproject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GithubAuth" />
-      <option name="METHOD_NAME" value="authUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.GithubApiPut.followUserTest" />
+      <item itemvalue="TestNG.GithubApiPut" />
+      <item itemvalue="TestNG.FirstClass" />
+      <item itemvalue="TestNG.GithubAuth" />
+      <item itemvalue="TestNG.GithubApiRepositories" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GithubApiRepositories.checkUserRepo" />
-        <item itemvalue="TestNG.GithubApiRepositories.checkUserInfo" />
-        <item itemvalue="TestNG.GithubAuth.authUser" />
+        <item itemvalue="TestNG.GithubApiRepositories" />
         <item itemvalue="TestNG.GithubAuth" />
         <item itemvalue="TestNG.FirstClass" />
+        <item itemvalue="TestNG.GithubApiPut" />
+        <item itemvalue="TestNG.GithubApiPut.followUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -251,39 +296,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 15h 35m 12s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut_checkFollowingList - 2019.06.20 at 08h 54m 08s.xml">
+      <configuration name="GithubApiPut.checkFollowingList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 15h 35m 39s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut_checkFollowingList - 2019.06.20 at 08h 54m 32s.xml">
+      <configuration name="GithubApiPut.checkFollowingList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 15h 39m 12s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut_checkFollowingList - 2019.06.20 at 08h 55m 37s.xml">
+      <configuration name="GithubApiPut.checkFollowingList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 15h 39m 54s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut_checkFollowingList - 2019.06.20 at 08h 56m 07s.xml">
+      <configuration name="GithubApiPut.checkFollowingList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 15h 59m 05s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut - 2019.06.20 at 08h 56m 37s.xml">
+      <configuration name="GithubApiPut" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 15h 59m 30s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut_checkFollowingList - 2019.06.20 at 08h 56m 57s.xml">
+      <configuration name="GithubApiPut.checkFollowingList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 15h 59m 51s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut_followUserTest - 2019.06.20 at 08h 57m 02s.xml">
+      <configuration name="GithubApiPut.followUserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 16h 00m 30s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut - 2019.06.20 at 08h 57m 09s.xml">
+      <configuration name="GithubApiPut" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 16h 00m 46s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="GithubApiPut - 2019.06.20 at 08h 57m 47s.xml">
+      <configuration name="GithubApiPut" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GithubApiRepositories_checkUserRepo - 2019.06.18 at 16h 01m 29s.xml">
-      <configuration name="GithubApiRepositories.checkUserRepo" configurationId="TestNG" />
+    <history-entry file="FirstClass - 2019.06.20 at 08h 58m 24s.xml">
+      <configuration name="FirstClass" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -313,20 +359,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/GithubApiRepositories.java</url>
-          <line>8</line>
-          <properties class="GithubApiRepositories" method="checkUserInfo">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
@@ -334,10 +366,40 @@
     <entry file="file://$PROJECT_DIR$/testproject.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiPutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="163">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiRepositories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiPut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -353,18 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GithubAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GithubApiRepositories.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="157" selection-start-line="22" selection-start-column="157" selection-end-line="22" selection-end-column="157" />
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

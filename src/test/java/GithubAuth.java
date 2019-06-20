@@ -10,7 +10,7 @@ public class GithubAuth {
     public void authUser()
     {
         given().
-                auth().preemptive().oauth2("960431b16fa8f1dd49ec5aaa44c62fa924f84380").
+                auth().oauth2(System.getenv("ACCESS_TOKEN")).
                 pathParam("githubUsername", "cmpinzonh").
                 pathParam("repository", "workshop-api-testing-js").
         when().
