@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "properties": {
+    "status": {
+      "type": "number",
+      "enum": [200]
+    },
+    "body": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "login": { "type": "string" },
+          "id": { "type": "number" },
+          "node_id": { "type": "string" },
+          "avatar_url": { "type": "string" },
+          "gravatar_id": { "type": "string" },
+          "followers_url": { "type": "string" },
+          "following_url": { "type": "string" },
+          "gist_url": { "type": "string" },
+          "starred_url": { "type": "string" },
+          "subscriptions_url": { "type": "string" },
+          "organizations_url": { "type": "string" },
+          "repos_url": { "type": "string" },
+          "events_url": { "type": "string" },
+          "received_events_url": { "type": "string" },
+          "type": { "type": "string" },
+          "site_admin": { "type": "boolean" }
+        }
+      },
+      "required": ["status", "body"]
+    }
+  }
+}

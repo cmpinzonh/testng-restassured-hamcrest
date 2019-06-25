@@ -6,6 +6,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class GithubApiUsers {
+
     @Test
     public void responseTimeTest () {
         given().
@@ -54,7 +55,6 @@ public class GithubApiUsers {
 
         Assert.assertEquals(responseLength, expectedLength);
     }
-
 
     @Test
     public void fiftyUsersQueryLengthTest () {

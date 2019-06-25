@@ -16,4 +16,16 @@ public class GithubApiContract {
                 assertThat().body(matchesJsonSchemaInClasspath("events-schema.json"));
 
     }
+
+    @Test
+    public void userSchemaValidationTest () {
+
+        given().
+                auth().oauth2(System.getenv("ACCESS_TOKEN")).
+        when().
+                get("https://api.github.com/users").
+        then().
+                assertThat().body(matchesJsonSchemaInClasspath("user-schema.json"));
+
+    }
 }
