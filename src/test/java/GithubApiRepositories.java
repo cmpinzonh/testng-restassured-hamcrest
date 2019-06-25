@@ -1,13 +1,5 @@
-import com.sun.xml.xsom.impl.scd.Iterators;
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.internal.RestAssuredResponseImpl;
-import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 public class GithubApiRepositories {
 

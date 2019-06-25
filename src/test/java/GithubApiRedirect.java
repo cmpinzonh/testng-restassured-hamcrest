@@ -1,14 +1,7 @@
 import io.restassured.http.Headers;
-import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.HashMap;
-import java.util.Map;
-
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
 
 public class GithubApiRedirect {
     private String redirectURL = "https://github.com/aperdomob/redirect-test";
