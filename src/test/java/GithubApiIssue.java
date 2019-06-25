@@ -1,6 +1,3 @@
-import groovy.json.JsonOutput;
-import groovy.json.JsonParser;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -36,7 +33,7 @@ public class GithubApiIssue {
 
         // Para extraer un elemento particular en la lista del response
         String repoName = repo.path("[0].name");
-        System.out.println(repoName);
+
         Assert.assertNotEquals(repoName,"undefined");
 
 
@@ -57,7 +54,6 @@ public class GithubApiIssue {
         Assert.assertNull(issue.path("body"));
 
         Integer issueNumber = issue.path("number");
-        System.out.println(issueNumber);
 
         Map<String, Object> updateIssue = new HashMap<String, Object>();
         updateIssue.put("body", "body updated");
@@ -73,8 +69,8 @@ public class GithubApiIssue {
         then().
                 extract().response();
 
-        Assert.assertEquals(updatedIssue.path("body" ), "body updated" );
-        Assert.assertEquals(updatedIssue.path( "state "), "closed");
+        Assert.assertEquals(updatedIssue.path("body"),"body updated");
+        Assert.assertEquals(updatedIssue.path("state"),"closed");
 
     }
 }
